@@ -43,7 +43,25 @@ Você precisa desenvolver um algoritmo para um caixa eletrônico, seguindo os re
 
 > **ATENÇÃO**: Não é necessário realizar interação com banco de dados ou qualquer tipo interface de entrada de informações (input).
 
-### Dúvidas
+### Comandos de uso
 
-Em caso de dúvida entre em contato pelo skype **matheusmoovin**
+Para realizar um saque em uma corrente deverá executar o comando:
+```zsh
+  foo@bar:~$ php saquecorrente.php numeroconta valor
+```
+
+Para realizar um saque em uma corrente deverá executar o comando:
+```zsh
+  foo@bar:~$ php saquepoupanca.php numeroconta valor
+```
+
+Para realizar um depósito deverá executar o comando:
+```zsh
+  foo@bar:~$ php depositar.php numeroconta valor
+```
+
+Para realizar uma transferência deverá executar o comando:
+```zsh
+  foo@bar:~$ php transferir.php contaorigem contadestino valor
+```
 

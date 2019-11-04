@@ -14,8 +14,8 @@ class Exemplo
      *
      * @return string
      */
-    public function exemplo()
+    public function exemplo($name)
     {
-        return "Exemplo";
+		echo "Hello, $name\n";
     }
 }
